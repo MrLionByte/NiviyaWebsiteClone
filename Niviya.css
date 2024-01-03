@@ -506,9 +506,10 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-end{
+    display: content;
+    padding-left:45%;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-size: 78%;
-    text-align: center;
     letter-spacing: 1px;
 }
