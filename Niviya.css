@@ -1,0 +1,514 @@
+body{
+    margin: 0;
+}
+
+.headbox{
+    display: flex;
+    width: 100%;
+     border-color: black;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+}
+.topicon{
+    width: 15%;
+}
+.topicon img{
+    margin-left: 61px;
+    margin-top: 11px;
+}
+.toplist{
+    
+    width: 70%;
+}
+.toplist ul{
+    margin-left: 190px;
+    margin-top: 43px;
+}
+.toplist li{
+    float: left;
+    list-style: none;
+    margin-right: 31px;
+}
+.toplist ul li a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+.toplist ul li a::after{
+    content: '';
+    background-color: black;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 36px;
+    left: 0;
+}
+.toplist a:hover::after{
+    width: 100%;
+}
+.icontopleft{
+    width: 15%;
+    align-items: center;
+}
+.imgprop{
+    margin-top: 14%;
+    margin-left: 26%;
+}
+.imgprop a{
+    display: inline-block;
+    width: 20%;
+}
+.imgprop img{
+    width: 73%;
+    cursor: pointer;
+}
+.imgprop img:hover{
+    width: 15%;
+    transition-duration: 300ms;
+}
+.toplefticon a{
+    color: white;
+    cursor: pointer;
+}
+
+
+.mainimage{
+    width: 1519.2px;
+    height: 646.73px;
+    cursor: grab;
+}
+.mainimage img{
+    width: 100%;
+}
+.slidericon{
+    width: 50%;
+}
+.slideleft{
+    width: 6%;
+    height: 6%;
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 20%;
+    position: absolute;
+    margin-left: 1%;
+    cursor: pointer;
+}
+.slideleft:hover{
+    transition-duration: 500ms;
+    margin-left: 0%;
+}
+.slideright{
+    width: 6%;
+    height: 6%;
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 20%;
+    position: absolute;
+    margin-left: 92%;
+    cursor: pointer;
+}
+.slideright:hover{
+    transition-duration: 500ms;
+    margin-left: 93%;
+}  
+
+
+
+.centertabs{
+    height: 405px;
+    width: 100%;
+}
+.centertabs h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+.centertabs span{
+    font-size: 120%;
+    letter-spacing: 3px;
+    width: 260px;
+    height: 28px;
+}
+.midcoloumn{
+    display: flex;
+    width: 1429px;
+    height: 342px;
+    padding-left: 46px;
+    justify-content: center;
+    column-gap: 30px;
+    overflow: hidden;
+}
+.midcoloumn a{
+    margin: 0;
+    cursor: pointer;
+    overflow: hidden;
+    width: 337px;
+    height: 337px;
+}
+.midcoloumn img{
+    display: inline-block;
+    width: 337px;
+    height: 337px;
+    transition: 1s;
+    object-position: center center;
+}
+.midcoloumn img:hover{
+    width: 340px;
+    height: 340px;
+    transform: scale(1.1);
+}
+
+
+
+
+.mainbottom{
+    height: 884.2px;
+    width: 100%;
+}
+.textexplore{
+    color: black;
+}
+.textexplore h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 165%;
+    letter-spacing: 2px;
+}
+
+
+.mainbottom{
+    height: min-content;
+}
+.twocolumn{
+    display: flex;
+    width: 1430px;
+    height: 816px;
+    align-content: center;
+    justify-content: center;
+    column-gap: 28px;
+    padding-left: 45px;
+}
+
+.twocolumn a{
+    margin: 0;
+    cursor: pointer;
+    overflow: hidden;
+    width: 699.733px;
+    height: 816.2px;
+}
+.twocolumn img{
+    width: 699.733px;
+    height: 816.2px;
+    transition:  0.5s;
+    position: relative;
+}
+.twocolumn img:hover{
+    width: 704px;
+    height: 818px;
+    transform: scale(1.1);
+}
+
+
+
+
+.bottompart{
+    height: 551px;
+    width: 1292px;
+    margin: auto;
+}
+.bottomall{
+    width: 1214px;
+    height: 551px;
+    margin: auto;
+}
+.bottomtext{
+    margin: auto;
+}
+.bottomtext h2{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-size: 170%;
+}
+
+
+.sellproduct{
+    width: 1243.9px;
+    height: 492.7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.overlaybutton1 img{
+    width: 60%;
+}
+.overlaybutton2 img{
+    width: 60%;
+}
+.overlaybutton1 button{
+    background-color: transparent;
+    position: absolute;
+    color: black;
+    border-color: transparent;
+    margin-top: 11%;
+    margin-left: -3%;
+    cursor: pointer;
+}
+.overlaybutton1 button:hover{
+    transition-duration: 500ms;
+    margin-left: -4%;
+}
+.overlaybutton2 button{
+    background-color: transparent;
+    position: absolute;
+    color: black;
+    border-color: transparent;
+    margin-top: 11%;
+    margin-left: 77%;
+    cursor: pointer;
+}
+.overlaybutton2 button:hover{
+    transition-duration: 500ms;
+    margin-left: 78%;
+}
+.productimg{
+    display: flex;
+}
+.productimg img{
+    width: 290.95px;
+    height: 290.95px;
+}
+.productimg a{
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0; 
+}
+.img1{
+    background-color: black;
+    transition: transform 0.5s;
+}
+.img1:hover{
+    transform: scale(1.2);
+    content: url(IMG/boot2.webp);
+}
+.img2{
+    transition: transform 0.5s;
+    overflow: hidden;
+}
+.img2:hover{
+    transform: scale(1.2);
+    content: url(IMG/redball\ 2.webp);
+}
+.img3{
+    transition: transform 0.5s;
+}
+.img3:hover{
+    transform: scale(1.2);
+    content: url(IMG/blueshoe2.webp);
+}
+.img4{
+    transition: transform 0.2s;
+}
+.img4:hover{
+    transform: scale(1.2);
+    content: url(IMG/violetimg2.webp);
+}
+
+
+.productname{
+    display: flex;
+    
+}
+.productname a{
+    text-transform: uppercase;
+    width: 290.95px;
+    height: 28px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.productprice{
+    display: flex;
+
+}
+.productprice a{
+
+    width: 290.95px;
+    height: 23.8px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+.productchoice{
+    display: flex;
+}
+.productchoice a{
+    width: 290.95px;
+    height: 51.6px;
+    text-align: center;
+    
+}
+.productchoice span{
+    width: 10px;
+    height: 10px;
+    
+}
+.productchoice img{
+    width: 15%;
+    background-color: #781818;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0px 0px 5px 14px;
+}
+.productchoice img:hover{
+    transition-duration: 500ms;
+    color: black;
+    border-color: blue;
+}
+
+
+
+.footerall{
+height: 302px;
+font-family: Arial, Helvetica, sans-serif;   
+}
+.footerblack{
+    background-color: black;
+    width: 100%;
+    height: 92%;
+}
+.footersection{
+    width: 90%;
+    margin-left: 3%;
+}
+.size{
+    color: white;
+    margin-top: 30px;
+}
+
+.part1{
+    
+   float: left;
+    width: 14%;
+    height: 20%;
+    text-align: center;
+}
+.part1 img{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.part2{
+    padding-left: 1%;
+    float: left;
+    width: 21%;
+    height: 10%;
+}
+.heading{
+    width: 60%;
+    padding-left: 2%;
+    margin-top: 1%;
+    font-weight: 100;
+    font-family: inherit;
+    font-size: 97%;
+}
+.part2 p{
+    font-size: 80%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+}
+.part2 img{
+    width: 7%;
+    padding-right: 2%;
+    background-color: transparent;
+}
+
+
+
+.part3{
+    float: left;
+    width: 16%;
+    height: 10%;
+    margin-top: 1%;
+}
+.part3 ul{
+    list-style: none;
+    font-weight: 100%;
+}
+.part3 li{
+    font-weight: 80%;
+    font-size: 80%;
+    padding-bottom: 5%;
+}
+
+
+
+.part4{
+    float: left;
+    width: 20%;
+    height: 10%;
+    margin-top: 1%;
+    padding-left: 1%;
+}
+.part4 h3{
+    font-weight: 100%;
+}
+.part4 ul{
+    list-style: none;
+}
+.part4 li{
+    font-weight: 80%;
+    font-size: 80%;
+    padding-bottom: 4%;
+}
+
+
+.part5{
+    float: left;
+    width: 25%;
+    padding-left: 1%;
+}
+.part5 h4{
+    padding-bottom: 2%;
+}
+.part5 p{
+    font-weight: 80%;
+    font-size: 86%;
+    margin-top: 1%;
+    padding-left: 2%;
+}
+.part5 hr{
+    margin: 2%;
+}
+.part5button{
+    width:75%;
+    display: inline-block;
+    padding-top: 3%;
+}
+.part5 a{
+    display: inline-block;
+    background-color: transparent;
+    border-color: transparent;
+    width: 15%;
+    height: auto;
+    padding: 0;
+}
+.part5 img{
+    width: 85%;
+    cursor: pointer;
+}
+.part5button img:hover{
+    transition-duration: 600ms;
+    width: 60%;
+    padding-bottom: 10%;
+}
+
+.footer-end{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 78%;
+    text-align: center;
+    letter-spacing: 1px;
+}
